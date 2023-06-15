@@ -34,6 +34,11 @@ section {
     color: white;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity:50%;
 }
 
 /* HEADING CONTAINER */
@@ -197,6 +202,11 @@ li p {
     font-size: 1.25rem;
 }
 
+.links p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .socials {
     margin-top: 3rem;
     display: flex;
@@ -207,6 +217,10 @@ li p {
 
 .socials img {
     width: 1.6rem;
+}
+
+.socials img:hover{
+    background-color: hsl(322, 100%, 66%);
 }
 
 .copyright {
